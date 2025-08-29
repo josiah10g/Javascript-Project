@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ 
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+background: linear-gradient(135deg, #43e97b, #38f9d7);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.container {
+background: white;
+  padding: 20px;
+  border: 2px solid #333333;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 80%;
+  max-width: 900px;
+}
+
+.container h1{
+  background:#0D3B66 ;
+  color: #FFFFFF;
+}
+
+h1 {
+  text-align: center;
+}
+
+#timer {
+  text-align: right;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.question {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin: 5px 0;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.qnum.correct-number {
+  color: #2a9d8f;
+  font-weight: bold;
+}
+.qnum.wrong-number {
+  color: #e76f51;
+  font-weight: bold;
+}
+
+label.correct {
+  background: #d4edda;
+}
+label.wrong {
+  background: #f8d7da;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background: #2a9d8f;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background: #21867a;
+}
+
+#result {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}

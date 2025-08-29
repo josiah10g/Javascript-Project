@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Josiah's CBT App</title>
+  <link rel="stylesheet" href="cbt.css">
+</head>
+<body>
+  <div class="container">
+    <h1>JOSIAH'S CBT APP</h1>
+    <p class="desc">Welcome to my CBT App.</p>
+    <p class="desc">Instruction: This is a 20 question multiple choice test, so make sure you answer all questions and any student caught cheating will face serious punishment.</p>
+    <h2>Goodluck!</h2>
+    <div id="timer">Time Left: 5:00</div>
+
+    <form id="quizForm">
+<!-- Questionjs and answers -->
+      <div class="question" data-answer="d">
+        <h3><span class="qnum">1.</span> What is the name of the President of Nigeria?</h3>
+        <label><input type="radio" name="q1" value="a"> John</label>
+        <label><input type="radio" name="q1" value="b"> Patrick</label>
+        <label><input type="radio" name="q1" value="c"> Mike</label>
+        <label><input type="radio" name="q1" value="d"> Bola Ahmed Tinubu</label>
+      </div>
+
+     
+      <div class="question" data-answer="c">
+        <h3><span class="qnum">2.</span> What is one plus one?</h3>
+        <label><input type="radio" name="q2" value="a">Seven</label>
+        <label><input type="radio" name="q2" value="b">Nine</label>
+        <label><input type="radio" name="q2" value="c">Two</label>
+        <label><input type="radio" name="q2" value="d">Eleven</label>
+      </div>
+
+ 
+      <div class="question" data-answer="a">
+        <h3><span class="qnum">3.</span> How many states are in Nigeria ?</h3>
+        <label><input type="radio" name="q3" value="a"> 36</label>
+        <label><input type="radio" name="q3" value="b"> 1</label>
+        <label><input type="radio" name="q3" value="c"> 30</label>
+        <label><input type="radio" name="q3" value="d"> 0</label>
+      </div>
+
+      <div class="question" data-answer="d">
+        <h3><span class="qnum">4.</span>Which of the following is an animal?</h3>
+        <label><input type="radio" name="q4" value="a"> Egg</label>
+        <label><input type="radio" name="q4" value="b"> Chair</label>
+        <label><input type="radio" name="q4" value="c"> stone</label>
+        <label><input type="radio" name="q4" value="d"> Tiger</label>
+      </div>
+
+    
+      <div class="question" data-answer="c">
+        <h3><span class="qnum">5.</span> Which of the following is not an animal?</h3>
+        <label><input type="radio" name="q5" value="a"> Eagle</label>
+        <label><input type="radio" name="q5" value="b"> Lion</label>
+        <label><input type="radio" name="q5" value="c"> Hammer</label>
+        <label><input type="radio" name="q5" value="d"> Gorilla</label>
+      </div>
+
+    
+      <div class="question" data-answer="b">
+        <h3><span class="qnum">6.</span> Which gas do humans need to survive?</h3>
+        <label><input type="radio" name="q6" value="a">Iphone 16 Pro Max</label>
+        <label><input type="radio" name="q6" value="b">All of the Above</label>
+        <label><input type="radio" name="q6" value="c">Food</label>
+        <label><input type="radio" name="q6" value="d">Oxygen</label>
+      </div>
+
+   
+      <div class="question" data-answer="a">
+        <h3><span class="qnum">7.</span>Why did John eat the cake?</h3>
+        <label><input type="radio" name="q7" value="a"> He was hungry</label>
+        <label><input type="radio" name="q7" value="b">He was stupid</label>
+        <label><input type="radio" name="q7" value="c"> He was angry</label>
+        <label><input type="radio" name="q7" value="d"> He was lost</label>
+      </div>
+
+    
+      <div class="question" data-answer="d">
+        <h3><span class="qnum">8.</span> Which of the following is a video game ?</h3>
+        <label><input type="radio" name="q8" value="a">Shoe </label>
+        <label><input type="radio" name="q8" value="b"> Stone</label>
+        <label><input type="radio" name="q8" value="c">Egg </label>
+        <label><input type="radio" name="q8" value="d"> Fortnite</label>
+      </div>
+
+ 
+      <div class="question" data-answer="c">
+        <h3><span class="qnum">9.</span>Can a human go to the sun safely?</h3>
+        <label><input type="radio" name="q9" value="a"> Maybe</label>
+        <label><input type="radio" name="q9" value="b"> Yes</label>
+        <label><input type="radio" name="q9" value="c"> No</label>
+        <label><input type="radio" name="q9" value="d">I don't know</label>
+      </div>
+
+      
+      <div class="question" data-answer="a">
+        <h3><span class="qnum">10.</span> Why did the chicken cross the road?</h3>
+        <label><input type="radio" name="q10" value="a">To Get to the other side </label>
+        <label><input type="radio" name="q10" value="b">To find food </label>
+        <label><input type="radio" name="q10" value="c">To go and hustle </label>
+        <label><input type="radio" name="q10" value="d"> Just for fun</label>
+      </div>
+
+    
+      <div class="question" data-answer="b">
+        <h3><span class="qnum">11.</span> Which of the following is healthy to eat?</h3>
+        <label><input type="radio" name="q11" value="a">Stone</label>
+        <label><input type="radio" name="q11" value="b"> Apple</label>
+        <label><input type="radio" name="q11" value="c"> Petrol</label>
+        <label><input type="radio" name="q11" value="d">Engine Oil</label>
+      </div>
+
+      <div class="question" data-answer="c">
+        <h3><span class="qnum">12.</span> What is the shape of the Earth?</h3>
+        <label><input type="radio" name="q12" value="a">Circle</label>
+        <label><input type="radio" name="q12" value="b"> Rectangle</label>
+        <label><input type="radio" name="q12" value="c"> Sphere</label>
+        <label><input type="radio" name="q12" value="d"> Square</label>
+      </div>
+
+   
+      <div class="question" data-answer="a">
+        <h3><span class="qnum">13.</span> What number is this question?</h3>
+        <label><input type="radio" name="q13" value="a"> 13</label>
+        <label><input type="radio" name="q13" value="b">10 </label>
+        <label><input type="radio" name="q13" value="c"> 11</label>
+        <label><input type="radio" name="q13" value="d">12 </label>
+      </div>
+
+
+      <div class="question" data-answer="d">
+        <h3><span class="qnum">14.</span> Which of the following is not a day of the week?</h3>
+        <label><input type="radio" name="q14" value="a"> Monday</label>
+        <label><input type="radio" name="q14" value="b">Tuesday </label>
+        <label><input type="radio" name="q14" value="c"> Wednesday</label>
+        <label><input type="radio" name="q14" value="d"> Rat</label>
+      </div>
+
+    
+      <div class="question" data-answer="c">
+        <h3><span class="qnum">15.</span>  Which of the following is not a day of the month?</h3>
+        <label><input type="radio" name="q15" value="a">March </label>
+        <label><input type="radio" name="q15" value="b">August </label>
+        <label><input type="radio" name="q15" value="c"> Fish</label>
+        <label><input type="radio" name="q15" value="d"> January</label>
+      </div>
+
+      <div class="question" data-answer="b">
+        <h3><span class="qnum">16.</span>Which of the following cannot fly ?</h3>
+        <label><input type="radio" name="q16" value="a">Plane </label>
+        <label><input type="radio" name="q16" value="b">Fish </label>
+        <label><input type="radio" name="q16" value="c"> Bird</label>
+        <label><input type="radio" name="q16" value="d">Eagle </label>
+      </div>
+
+
+      <div class="question" data-answer="a">
+        <h3><span class="qnum">17.</span>Which of the following can fly ?</h3>
+        <label><input type="radio" name="q17" value="a"> Hawk </label>
+        <label><input type="radio" name="q17" value="b">Shoe </label>
+        <label><input type="radio" name="q17" value="c">Bag </label>
+        <label><input type="radio" name="q17" value="d">Egg </label>
+      </div>
+
+
+      <div class="question" data-answer="d">
+        <h3><span class="qnum">18.</span> Have you ever drank water in your life?</h3>
+        <label><input type="radio" name="q18" value="a">No </label>
+        <label><input type="radio" name="q18" value="b">Maybe </label>
+        <label><input type="radio" name="q18" value="c"> I dunno</label>
+        <label><input type="radio" name="q18" value="d"> Yes</label>
+      </div>
+
+
+      <div class="question" data-answer="c">
+        <h3><span class="qnum">19.</span> Do plants need water to survive?</h3>
+        <label><input type="radio" name="q19" value="a"> I dunno</label>
+        <label><input type="radio" name="q19" value="b"> No</label>
+        <label><input type="radio" name="q19" value="c"> Yes</label>
+        <label><input type="radio" name="q19" value="d"> Maybe</label>
+      </div>
+
+    
+      <div class="question" data-answer="a">
+        <h3><span class="qnum">20.</span> What do you use to brush your teeth?</h3>
+        <label><input type="radio" name="q20" value="a">Toothbrush </label>
+        <label><input type="radio" name="q20" value="b">Shoe </label>
+        <label><input type="radio" name="q20" value="c">Television </label>
+        <label><input type="radio" name="q20" value="d">Wire </label>
+      </div>
+
+      <button id="submitBtn"  type="button" onclick="submitQuiz()">Submit</button>
+    </form>
+    <div id="result"></div>
+  </div>
+
+  <script src="cbt.js"></script>
+</body>
+</html>
